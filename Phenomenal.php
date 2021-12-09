@@ -29,7 +29,7 @@ class Freedom {
 
 		// Conversion en secondes des dates, puis comparaison :
 		$UnixAjd = strtotime($this->DateActuelle);
-	    $UnixDate = strtotime($this->Date);
+	        $UnixDate = strtotime($this->Date);
 		$Difference = $UnixAjd - $UnixDate;
 		return $Difference;
 	}
